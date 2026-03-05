@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#435153"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+
+        <!-- Card Form -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/form_bg"
+            android:padding="20dp"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Create Account"
+                android:textColor="#FFFFFF"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fill your information..."
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="20dp"/>
+
+            <!-- Name -->
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Name"
+                android:inputType="textPersonName"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:background="#435153"
+                android:padding="12dp"
+                android:layout_marginBottom="12dp"/>
+
+            <!-- Gender -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gender"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:layout_marginBottom="4dp"/>
+
+            <Spinner
+                android:id="@+id/spinnerGender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:background="#435153"
+                android:entries="@array/gender_options"
+                android:popupBackground="#919888"/>
+
+            <!-- Email -->
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:background="#435153"
+                android:padding="12dp"
+                android:layout_marginBottom="12dp"/>
+
+            <!-- Password -->
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:background="#435153"
+                android:padding="12dp"
+                android:layout_marginBottom="20dp"/>
+
+            <!-- Button -->
+            <Button
+                android:id="@+id/btn_daftar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Daftar"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#2E4542"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
