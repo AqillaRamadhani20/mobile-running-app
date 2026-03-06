@@ -1,0 +1,50 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_green"
+    android:padding="25dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/txt_selamatDatang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome, Zerlina!"
+            android:textColor="@color/white"
+            android:textStyle="bold|italic"
+            android:textSize="24sp"
+            android:background="@drawable/kotak_text"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/txt_kabar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="How's Your Day Today?"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_marginTop="6dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=">"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/dark_cream"/>
+
+</FrameLayout>
