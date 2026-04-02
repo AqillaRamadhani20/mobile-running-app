@@ -44,8 +44,15 @@ class BlankFragment : Fragment(R.layout.fragment_blank) {
                 Toast.LENGTH_SHORT
             ).show()
 
+            val loginFragment = LoginFragment()
+
+            val bundle = Bundle()
+            bundle.putParcelable("data_user", dataRegistrasi)
+
+            loginFragment.arguments = bundle
+
             parentFragmentManager.beginTransaction()
-                .replace(R.id.fragment_container, LoginFragment())
+                .replace(R.id.fragment_container, loginFragment)
                 .commit()
         }
     }
