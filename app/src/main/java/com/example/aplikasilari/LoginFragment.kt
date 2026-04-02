@@ -36,7 +36,8 @@ class LoginFragment : Fragment(R.layout.fragment_login) {
                     .replace(R.id.fragment_container, Welcomefragment())
                     .commit()
             } else {
-                Toast.makeText(requireContext(), "Email atau password salah", Toast.LENGTH_SHORT).show()
+                Toast.makeText(requireContext(), "Email atau password salah", Toast.LENGTH_SHORT)
+                    .show()
             }
         }
     }

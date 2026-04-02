@@ -15,14 +15,13 @@ Aplikasi Android untuk mencatat aktivitas lari: tanggal, jarak (km), durasi (men
 
 ---
 
-### Pembagian Pengerjaan Komponen UI
+### Pembagian Pengerjaan Komponen
 | Komponen | Dikerjakan oleh |
 |----------|-----------------|
-| Halaman welcome dan halaman beranda | (ZERLINA ANGGUN CANDRAWATI - 24082010164) |
-| Halaman registrasi dan login  | (AQILLA RASYA RAMADHANI - 24082010168) |
-| Halaman profil | (NOVIA FARAH HARWATI - 24082010176) |
-| Halaman form pencatatan lari | (MOCH. YUSUF ALFAREZI - 24082010145) |
-
+| Point 1 (Pada halaman registrasi, tampung semua isian form ke dalam sebuah data class) | (ZERLINA ANGGUN CANDRAWATI - 24082010164) |
+| Alur Navigasi perpindahan object| (AQILLA RASYA RAMADHANI - 24082010168) |
+| Point 3 (Mengedit semua UI dan menambah icon aplikasi) | (NOVIA FARAH HARWATI - 24082010176) |
+| Point 2 (Pada halaman add run,tampung semua isian form ke dalam sebuah data class) | (MOCH. YUSUF ALFAREZI - 24082010145) |
 ---
 
 ## Cara Menjalankan

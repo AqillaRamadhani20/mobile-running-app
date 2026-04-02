@@ -1,5 +1,6 @@
 <FrameLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg_gradient"
@@ -21,7 +22,7 @@
             android:contentDescription="Logo app"
             android:scaleType="fitCenter"
             android:src="@drawable/logo_urun"
-            android:layout_marginTop="50dp"/>
+            android:layout_marginTop="50dp" />
 
         <TextView
             android:id="@+id/txt_selamatDatang"
@@ -41,21 +42,71 @@
             android:textColor="@color/white"
             android:textStyle="bold"
             android:textSize="25sp"
-            android:layout_marginTop="6dp"/>
+            android:layout_marginTop="6dp" />
+
+        <LinearLayout
+            android:layout_width="178dp"
+            android:layout_height="189dp"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="16dp"
+            android:orientation="vertical">
+
+            <!-- Add Run -->
+
+            <!-- Profile -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/buttonAddRun"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:backgroundTint="#191970"
+                    android:contentDescription="Add Run"
+                    android:padding="14dp"
+                    android:src="@drawable/baseline_directions_run_24"
+                    app:tint="@android:color/white" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Run"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/buttonProfile"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:backgroundTint="#191970"
+                    android:contentDescription="Profile"
+                    android:padding="14dp"
+                    android:src="@drawable/baseline_face_24"
+                    app:tint="@android:color/white" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Profile"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+        </LinearLayout>
 
     </LinearLayout>
-
-    <Button
-        android:id="@+id/buttonNext"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text=">"
-        android:textStyle="bold"
-        android:textSize="20sp"
-        android:padding="10dp"
-        android:layout_gravity="bottom|end"
-        android:layout_margin="16dp"
-        android:textColor="@color/white"
-        android:backgroundTint="#191970"/>
 
 </FrameLayout>
