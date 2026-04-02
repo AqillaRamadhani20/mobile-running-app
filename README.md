@@ -1,4 +1,4 @@
-# CatatLari (Run Log App)
+# U-Run (Run Log App)
 
 Aplikasi Android untuk mencatat aktivitas lari: tanggal, jarak (km), durasi (menit), dan menyimpan riwayat.
 
