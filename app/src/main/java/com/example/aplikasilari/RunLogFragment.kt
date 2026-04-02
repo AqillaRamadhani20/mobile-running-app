@@ -51,7 +51,13 @@ class RunLogFragment : Fragment(R.layout.fragment_run_log) {
             if (durasi.isBlank()) { binding.tilDurasi.error = "Durasi wajib diisi"; valid = false }
 
             if (valid) {
-                Toast.makeText(requireContext(), "Data tersimpan!", Toast.LENGTH_SHORT).show()
+                val run = Run(
+                    tanggal = tgl,
+                    jarakKm = jarak.toDouble(),
+                    durasiMenit = durasi.toInt()
+                )
+
+                Toast.makeText(requireContext(), "Data tersimpan: ${run.jarakKm} km dalam ${run.durasiMenit} menit", Toast.LENGTH_SHORT).show()
             }
         }
     }

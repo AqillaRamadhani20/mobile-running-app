@@ -14,7 +14,7 @@ class Welcomefragment : Fragment(R.layout.fragment_welcome) {
 
         btnNext.setOnClickListener {
             parentFragmentManager.beginTransaction()
-                .replace(R.id.fragment_container, Berandafragment())
+                .replace(R.id.fragment_container, ProfileFragment())
                 .addToBackStack(null)
                 .commit()
         }

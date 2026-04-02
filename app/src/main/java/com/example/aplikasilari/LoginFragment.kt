@@ -18,7 +18,7 @@ class LoginFragment : Fragment(R.layout.fragment_login) {
             Toast.makeText(requireContext(), "Login berhasil", Toast.LENGTH_SHORT).show()
 
             parentFragmentManager.beginTransaction()
-                .replace(R.id.fragment_container, ProfileFragment())
+                .replace(R.id.fragment_container, Welcomefragment())
                 .commit()
         }
     }
