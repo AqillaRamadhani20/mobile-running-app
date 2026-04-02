@@ -2,7 +2,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#435153">
+    android:background="@drawable/bg_gradient">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -11,13 +11,13 @@
         android:padding="24dp">
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="359dp"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
             android:text="Welcome Back"
             android:textColor="#FFFFFF"
-            android:textSize="22sp"
-            android:textStyle="bold"
-            android:layout_marginBottom="8dp"/>
+            android:textSize="35sp"
+            android:textStyle="bold" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -40,7 +40,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="12dp"
-            android:background="#435153"
+            android:background="#87CEEB"
             android:hint="Email"
             android:inputType="textEmailAddress"
             android:padding="12dp"
@@ -53,7 +53,7 @@
             android:inputType="textPassword"
             android:textColor="#FFFFFF"
             android:textColorHint="#FFFFFF"
-            android:background="#435153"
+            android:background="#87CEEB"
             android:padding="12dp"
             android:layout_marginBottom="20dp"
             android:layout_width="match_parent"
@@ -63,7 +63,7 @@
             android:id="@+id/btn_login"
             android:text="Login"
             android:textColor="#FFFFFF"
-            android:backgroundTint="#2E4542"
+            android:backgroundTint="#191970"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 

@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#435153"
+    android:background="@drawable/bg_gradient"
     android:padding="24dp">
 
     <TextView
@@ -91,7 +91,7 @@
         android:layout_height="52dp"
         android:layout_marginTop="372dp"
         android:text="Save"
-        app:backgroundTint="#2E4542"
+        app:backgroundTint="#191970"
         app:cornerRadius="12dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
